@@ -1,0 +1,13 @@
+$base-color: white;
+$border-dark: rgba($base-color, 0.88);
+
+.auth-one-bg {
+    background-image: url("../../../assets/images/auth-one-bg.jpg");
+    background-position: center;
+    background-size: cover;
+
+    .bg-overlay {
+        background: linear-gradient(to right, darken($base-color, 6%), $base-color);
+        opacity: 0.9;
+    }
+}
